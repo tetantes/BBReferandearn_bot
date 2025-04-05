@@ -30,3 +30,21 @@
 ![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/10e92a4fee7239cf21e80675db5e1944741119e9/Screenshot_20250405-083724.png)
 • /broadcast – Broadcast a message or file to all users.
 ![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/89784524986cbf9f63c2730ce5783da9518191c0/Screenshot_20250405-083922.png)
+/adminPanel - used for quick set up of bot 
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/860ac29bc574f2106ce0e6d3da9065bc0e2fc132/Screenshot_20250405-084355.png)
+# 📋 User Commands and Options
+
+• /start – Initialize the bot and check for required channel membership.
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/cbeb2d4460be152a4cd6e1741cff0d705762fbcf/Screenshot_20250405-084545.png)
+• Refer and Earn (🧑‍🤝‍🧑 Refer) – Get an invite link to share with friends. Each referral earns points.
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/5ec8c6d4a9f388bf51c924ef8f1abf288bc6dbf2/Screenshot_20250405-081155.png)
+• Daily Bonus (🎁 Bonus) – Claim a daily bonus for free points.
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/b5230f153d19d97eada4012d07567c2775c77d0a/Screenshot_20250405-082156.png)
+• Account Information (👩‍💻 Account) View account details, including balance and referral count.
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/70b0f216d77e2fdfa5f4a962ea5f641606de7e0d/Screenshot_20250405-084858.png)
+• Statistics (📊 Statistics) – View bot statistics, such as total members and creator info.
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/e86f5daef49fb5e40965cf43b51c326ce6cf722e/Screenshot_20250405-085012.png)
+• Support (📞 Support) – Directs to the admin  for help and inquiries.
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/a23a9e576ddcdcee88a5b05b60654bd0afa192e0/Screenshot_20250405-085426.png)
+•  ℹ️About Us - A simple description of the bot 
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/e86f5daef49fb5e40965cf43b51c326ce6cf722e/Screenshot_20250405-085021.png)
