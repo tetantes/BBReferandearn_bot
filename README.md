@@ -1,84 +1,32 @@
-# BBReferandearn_bot - chat bot
-It is repository for chat bot: [@BBReferandearn_bot](https://t.me/BBReferandearn_bot)
+# 🌟Features
+• Refer and Earn: Users earn points by referring others 
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/5ec8c6d4a9f388bf51c924ef8f1abf288bc6dbf2/Screenshot_20250405-081155.png)
+• Daily Bonus: Users claim bonus points daily to boost their balance
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/b5230f153d19d97eada4012d07567c2775c77d0a/Screenshot_20250405-082156.png)
+• Invite Tracking: Keep track of successful referrals to award points.
 
-## What it is?
-This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.
+• Admin Controls: Full control panel for bot admins to manage users, points, and messages.
 
-[Bots.Business](https://bots.business) - it is probably the first CBPaaS - Chat Bot Platform as a Service.
+• Balance Management: Admins add, delete, or reset points for any user.
 
-A CBPaaS is a cloud-based platform that enables developers to create chatbots without needing to build backend infrastructure.
+• User Ban & Unban: Manage user access to the bot by banning or unbanning.
 
-## Create your own bot for Telegram from this Git repo
+• Broadcast Messaging: Send announcements or updates to all users.
 
-How to create bot?
-1. Create bot with [@BotFather](https://telegram.me/BotFather) and take Secret Token
-2. Create bot in App and add Secret Token
-3. Add Public Key from App as [Deploy key](https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys) with read access (and write access for bot exporting if you need it)
-4. Do import for this git repo
-
-Now you can talk with yours new Telegram Bot
-
-See [more](https://help.bots.business/getting-started)
-
-## Commands - in commands folder
-File name - it is command name (Bot it can be rewritten in command description)
-
-Command can have: `name`, `help`, `aliases` (second names), `answer`, `keyboard`, `scnarios` (for simple logic) and other options.
-
-### Command description
-It is file header:
-
-    /*CMD
-      command: /test
-      help: this is help for ccommand
-      need_reply: [ true or false here ]
-      auto_retry_time: [ time in sec ]
-      answer: it is example answer for /test command
-      keyboard: button1, button2
-      aliases: /test2, /test3
-    CMD*/
-
-See [more](https://help.bots.business/commands)
-
-### Command body
-It is command code in JavaScript.
-Use Bot Java Script for logic in command.
-
-For example:
-> Bot.sendMessage(2+2);
-
-See [more](https://help.bots.business/scenarios-and-bjs)
-
-
-## Libraries - in libs folder
-You can store common code in the libs folder. File name - it is library name.
-
-For example code in myLib.js:
-
-    function hello(){ Bot.sendMessage("Hello from lib!") }
-    function goodbye(name){ Bot.sendMessage("Goodbye, " + name) }
-
-    publish({
-      sayHello: hello,
-      sayGoodbyeTo: goodbye
-    })
-
-then you can run in any bot's command:
-
-    Libs.myLib.hello()
-    Libs.myLib.sayGoodbyeTo("Alice")
-
-See [more](https://help.bots.business/git/library)
-
-## Other bots example
-See other bots examples in the [github](https://github.com/bots-business?utf8=✓&tab=repositories&q=&type=public&language=javascript) or in the [Bot Store](https://bots.business/)
-
-
-## Other help
-[Help.bots.business](https://help.bots.business)
-
-## API
-See [API](https://api.bots.business/docs#/docs/summary)
-
-
-![](https://bots.business/images/web-logo.png)
+• Join Verification: Verifies that users have joined the required channels before accessing bot features.
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/19a827168fe818cf303362f01f803ac0ffb2e8fc/Screenshot_20250405-082341.png)
+# 🔑 Admin Commands 
+• /adminLogin - setting up admin
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/00d06870bc9d37628aa466d86d5c48cd7e39bb6f/Screenshot_20250405-082614.png)
+• /adminPanel - login to admin panel after setting up the admin 
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/ce2c2030d055ff7eb6d783b20db04e4cb20a4ccc/Screenshot_20250405-082922.png)
+• /ban Ban a user by their user ID.
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/3cea64f1cbb77d6431d792cb2a2402fbf345501b/Screenshot_20250405-083028.png)
+• /unban – Unban a previously banned user.
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/0df2bf51c45da433772d3edf0833176d720164be/Screenshot_20250405-083326.png)
+• /addBalance – Add points to a user’s balance.
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/4c7afd47be35a9077c018b1a6646a1c141238cf9/Screenshot_20250405-083508.png)
+• /removeBalance – Delete a user’s balance, resetting it or changing it to certain amounts.
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/10e92a4fee7239cf21e80675db5e1944741119e9/Screenshot_20250405-083724.png)
+• /broadcast – Broadcast a message or file to all users.
+![image alt](https://github.com/tetantes/BBReferandearn_bot/blob/89784524986cbf9f63c2730ce5783da9518191c0/Screenshot_20250405-083922.png)
